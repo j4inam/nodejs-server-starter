@@ -43,21 +43,21 @@ Build a dotenv config file using the `.env-sample` provided
 
 ###Config variables description
 
-|   **Param**    |                                                      ** Description**                                                       |
-| :------------: | :-------------------------------------------------------------------------------------------------------------------------: |
-|   MONGO_HOST   | mongodb connection URL: mongodb+srv://<username>:<password>@cluster.ab123.mongodb.net/<db_name>?retryWrites=true&w=majority |
-|   MONGO_USER   |                                          mongodb username to replace &ltusername>                                           |
-| MONGO_PASSWORD |                                          mongodb password to replace &ltpassword>                                           |
-| MONGO_DB_NAME  |                                        mongodb database name to replace &ltdb_name>                                         |
-|    APP_NAME    |                                                      application name                                                       |
-|    APP_HOST    |                                                    application host URL                                                     |
-|    APP_PORT    |                                    application port (required for local execution only)                                     |
-|    DEV_ENV     |                                  execution environment (required for local execution only)                                  |
-|     SECRET     |                                     random hashed secret used to generate keys for JWT                                      |
-|   SMTP_HOST    |                                                    mail server host URL                                                     |
-|   SMTP_PORT    |                                                      mail server port                                                       |
-|   SMTP_EMAIL   |                                       username if mailserver requires authentication                                        |
-| SMTP_PASSWORD  |                                       password if mailserver requires authentication                                        |
+|   **Param**    |                                                       ** Description**                                                        |
+| :------------: | :---------------------------------------------------------------------------------------------------------------------------: |
+|   MONGO_HOST   | mongodb connection URL: `mongodb+srv://<username>:<password>@cluster.ab123.mongodb.net/<db_name>?retryWrites=true&w=majority` |
+|   MONGO_USER   |                                           mongodb username to replace &lt;username>                                           |
+| MONGO_PASSWORD |                                           mongodb password to replace &lt;password>                                           |
+| MONGO_DB_NAME  |                                         mongodb database name to replace &lt;db_name>                                         |
+|    APP_NAME    |                                                       application name                                                        |
+|    APP_HOST    |                                                     application host URL                                                      |
+|    APP_PORT    |                                     application port (required for local execution only)                                      |
+|    DEV_ENV     |                                   execution environment (required for local execution only)                                   |
+|     SECRET     |                                      random hashed secret used to generate keys for JWT                                       |
+|   SMTP_HOST    |                                                     mail server host URL                                                      |
+|   SMTP_PORT    |                                                       mail server port                                                        |
+|   SMTP_EMAIL   |                                        username if mailserver requires authentication                                         |
+| SMTP_PASSWORD  |                                        password if mailserver requires authentication                                         |
 
 ## Install dependencies
 
