@@ -46,9 +46,9 @@ Build a dotenv config file using the `.env-sample` provided
 |   **Param**    |                                                      ** Description**                                                       |
 | :------------: | :-------------------------------------------------------------------------------------------------------------------------: |
 |   MONGO_HOST   | mongodb connection URL: mongodb+srv://<username>:<password>@cluster.ab123.mongodb.net/<db_name>?retryWrites=true&w=majority |
-|   MONGO_USER   |                                           mongodb username to replace <username>                                            |
-| MONGO_PASSWORD |                                           mongodb password to replace <password>                                            |
-| MONGO_DB_NAME  |                                         mongodb database name to replace <db_name>                                          |
+|   MONGO_USER   |                                          mongodb username to replace &ltusername>                                           |
+| MONGO_PASSWORD |                                          mongodb password to replace &ltpassword>                                           |
+| MONGO_DB_NAME  |                                        mongodb database name to replace &ltdb_name>                                         |
 |    APP_NAME    |                                                      application name                                                       |
 |    APP_HOST    |                                                    application host URL                                                     |
 |    APP_PORT    |                                    application port (required for local execution only)                                     |
