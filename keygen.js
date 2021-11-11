@@ -12,16 +12,7 @@ const keygen = {
     keystore.generate("oct", 256, props).then(
       (result) =>
         (config.JWEKeySet = {
-          // keys: [result.toJSON(true)],
-          keys: [
-            {
-              kty: "oct",
-              kid: "if9hARwTJbgfBwLWcefcg2d3TKo_gqUlWp72th9q3vo",
-              use: "enc",
-              alg: "A256GCM",
-              k: "saC97DZg4M25dDjTQKXqgFVOTy0iOK8AxNQsn6-MRSE",
-            },
-          ],
+          keys: [result.toJSON(true)],
         })
     ),
 };
