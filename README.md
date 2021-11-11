@@ -43,7 +43,7 @@ Build a dotenv config file using the `.env-sample` provided
 
 ###Config variables description
 
-|   **Param**    |                                                       ** Description**                                                        |
+|   **Param**    |                                                        **Description**                                                        |
 | :------------: | :---------------------------------------------------------------------------------------------------------------------------: |
 |   MONGO_HOST   | mongodb connection URL: `mongodb+srv://<username>:<password>@cluster.ab123.mongodb.net/<db_name>?retryWrites=true&w=majority` |
 |   MONGO_USER   |                                           mongodb username to replace `<username>`                                            |
